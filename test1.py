@@ -1,19 +1,16 @@
 import math
 math.sqrt(9)
-#from punto import Punto
+from punto import Punto
 
-x= 3
-y= 4
 
-class punto():
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
-    def __str__(self):
-        return "({}, {})".format(self.x, self.y)
-print(punto)
-
+class test_punto():
+    punto= Punto(2,3)
+    assert punto.x == 2
+    assert punto.y == 3
+    print(punto)
+    
 def test_cuadrante(self):
+    punto= Punto(2,3)
     if self.x>0 and self.y>0:
         return "El punto {} está en el 1r cuadrante"
     if self.x<0 and self.y>0:

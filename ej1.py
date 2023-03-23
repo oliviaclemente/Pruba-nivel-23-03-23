@@ -31,7 +31,5 @@ def distancia(self, dif_punto):
     return distancia
 print(distancia)
 
-punto1= punto(2, 3)
-punto2= punto(5, 5)
-punto3= punto(-3, -1)
-punto4= punto(0, 0)
+print("d= sqrt((x2 - x1)**2 + (y2 -y1)**2)")
+
