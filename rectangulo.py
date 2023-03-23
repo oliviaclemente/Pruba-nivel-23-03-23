@@ -10,4 +10,11 @@ class rectangulo():
         if p2 is None:
             p2= (0,0)
     
-    def base():
+    def base(self):
+        base= 
+        
+    def altura(self):
+        altura=
+        
+    def area(self):
+        area=
