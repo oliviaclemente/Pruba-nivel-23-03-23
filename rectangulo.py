@@ -11,10 +11,10 @@ class rectangulo():
             p2= (0,0)
     
     def base(self):
-        base= 
+        return fabs(self.p1.x - self.p2.x)
         
     def altura(self):
-        altura=
+        return fabs(self.p1.y - self.p2.y)
         
     def area(self):
-        area=
+        return self.base() * self.altura()
